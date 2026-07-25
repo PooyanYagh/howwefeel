@@ -1,0 +1,14 @@
+{
+  "name": "DailyMood — فضای شخصی من",
+  "short_name": "DailyMood",
+  "description": "ثبت احساس، عادت، برنامه، رویا و مناجات روزانه",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
