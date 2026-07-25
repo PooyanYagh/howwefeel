@@ -102,3 +102,45 @@
   .emotion-sheet-backdrop{padding:0}.emotion-details-sheet{border-radius:28px 28px 0 0;max-height:94dvh;padding:14px 16px calc(24px + env(safe-area-inset-bottom))}.sheet-title h2{font-size:23px}.sheet-emotion-row{grid-template-columns:45px 1fr 31px}.sheet-emotion-symbol{width:42px;height:42px}.emotion-toast{top:calc(12px + env(safe-area-inset-top));white-space:nowrap;font-size:12px}
 }
 @media(max-width:390px){.emotion-bubble-map{grid-template-columns:repeat(3,1fr)}.map-bubble strong{font-size:10.5px}.map-bubble-icon{font-size:16px}}
+
+
+
+@font-face {
+  font-family: "Dana";
+  src: url("/fonts/dana-fanum-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dana";
+  src: url("/fonts/dana-fanum-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dana";
+  src: url("/fonts/dana-fanum-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dana";
+  src: url("/fonts/dana-fanum-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dana";
+  src: url("/fonts/dana-fanum-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
