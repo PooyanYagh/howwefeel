@@ -20,11 +20,25 @@ export type Habit = {
   id: string
   title: string
   description: string | null
-  frequency_type: string
-  target_count: number
-  target_value: number | null
-  unit: string | null
+  icon: string | null
+  color: string | null
+  target_days: number[]
   is_active: boolean
+  created_at: string
+  updated_at: string
+}
+
+export type HabitStatus = 'done' | 'missed' | 'skipped'
+
+export type HabitLog = {
+  id: string
+  habit_id: string
+  user_id: string
+  log_date: string
+  status: HabitStatus
+  note: string | null
+  created_at: string
+  updated_at: string
 }
 
 export type Task = {

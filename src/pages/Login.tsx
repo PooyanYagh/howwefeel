@@ -12,7 +12,7 @@ export default function Login() {
     e.preventDefault(); setBusy(true); setMessage('')
     const result = mode === 'login'
       ? await supabase.auth.signInWithPassword({ email, password })
-      : await supabase.auth.signUp({ email, password, options: { emailRedirectTo: window.location.origin } })
+      : await supabase.auth.signUp({ email, password })
     setBusy(false)
     setMessage(result.error ? result.error.message : mode === 'signup' ? 'حساب ساخته شد؛ ایمیل تأیید را بررسی کن.' : '')
   }
